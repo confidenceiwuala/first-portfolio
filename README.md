@@ -18,18 +18,16 @@
 ---
 
 #### Project Overview
-___
-This project seeks to shows the analysis of the sales performance of Cee Super Store. This analysis was carried out by exploring the sales data to uncover key insights.
+---
+This project seeks to generate insights into the performance of Cee Super Store. By analyzing the data set, we seek to uncover insight to enhance decision making
+---
 
 #### Introduction
-___
-Cee Super Store, a leading retail chain with multiple locations across the region, seeks to optimize its sales performance and improve customer engagement. With increasing competition in the market, the store's management recognizes the need for decision-making to stay ahead.
-
-* Project Background
-  
-Lita Capstone Retail Store, a leading retail chain with multiple locations across the region, seeks to optimize its sales performance and improve customer engagement. With increasing competition in the market, the store's management recognizes the need for data-driven decision-making to stay ahead.
+---
+Cee Super Store, is a leading retail store with multiple locations across the region, In order to enhance decision-making, the management seeks to optimize its sales performance and improve customer engagement, in order to stay at the top of their game.
+---
 
 * Problem Statement
   
-The store's current sales analysis process is manual, time-consuming, and limited in scope. The management team lacks a comprehensive understanding of sales trends, product performance, and regional variations, hindering strategic decision-making.
+The store's current sales analysis process is manual, time-consuming, and limited in scope. The management team lacks a comprehensive understanding of across the different products, and even region hence, hindering strategic decision-making.
 
