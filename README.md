@@ -20,14 +20,14 @@
 #### Project Overview
 ---
 This project seeks to generate insights into the performance of Cee Super Store. By analyzing the data set, we seek to uncover insight to enhance decision making
----
+
 
 #### Introduction
 ---
 Cee Super Store, is a leading retail store with multiple locations across the region, In order to enhance decision-making, the management seeks to optimize its sales performance and improve customer engagement, in order to stay at the top of their game.
----
 
-* Problem Statement
+
+#### Problem Statement
   
 The store's current sales analysis process is manual, time-consuming, and limited in scope. The management team lacks a comprehensive understanding of across the different products, and even region hence, hindering strategic decision-making.
 
