@@ -161,12 +161,12 @@ GROUP BY Product_Name
 HAVING SUM(Quantity)=1
 ```
 
-![IMG-20241022-WA0006](https://github.com/user-attachments/assets/5f5a6cd4-48fa-492c-9824-86c1dcf2b3e1)
+![Screenshot 2024-12-20 090213](https://github.com/user-attachments/assets/14c7eaf1-6aaf-4b55-8796-94144c5027d9)
+![Screenshot 2024-12-20 090935](https://github.com/user-attachments/assets/00c2c35a-e974-4fd6-ab69-634ac1982671)
+![Screenshot 2024-12-20 091542](https://github.com/user-attachments/assets/8fa14069-bb7c-40db-8f86-c947b7336e4f)
+![Screenshot 2024-12-20 091658](https://github.com/user-attachments/assets/8dd72574-c08d-464e-819f-0860f71d5e05)
+![Screenshot 2024-12-20 091743](https://github.com/user-attachments/assets/d089407d-7577-423a-90e7-40c5c3104246)
 
-![IMG-20241022-WA0007](https://github.com/user-attachments/assets/2e3fb695-5196-460d-99d0-206e952e10f8)
-
-![IMG-20241023-WA0010](https://github.com/user-attachments/assets/c91b108b-27be-4c1e-b2e2-17ac28f9755b)
-
-The images above shows how results of the data was queried into the SQL Server database using various queries to achieve the desired results.
+The images above shows how results of the data queried into the SQL Server database.
 
 
