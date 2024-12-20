@@ -95,7 +95,9 @@ This image shows the result of total profit by sub-category.
 
   - Total sales by Region
 
-![total sales by region](https://github.com/user-attachments/assets/797d84a1-9fee-47ed-8a09-b2dd0f5e4944) ![total sales by region graph](https://github.com/user-attachments/assets/8669f615-b51c-4f66-8332-26e9b1c55ca9)
+![Sales by Region](https://github.com/user-attachments/assets/0e103ede-aaef-4b75-9ce1-361e4bb5969a) ![Sales by Region graph](https://github.com/user-attachments/assets/87683d38-4cac-423a-9139-daeb16fe6b37)
+
+
 
 This image shows the result of total sales by region.
 
