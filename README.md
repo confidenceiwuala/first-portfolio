@@ -138,7 +138,7 @@ order by 2 desc
 
  Query 3: Total Sales over time.
 ```
-SELECT Order_Date, SUM(sales) AS revenue
+SELECT Order_Date, sum(sales*Quantity) AS revenue
 FROM [Sample - Superstore 1]
 GROUP BY Order_Date
 ORDER BY Order_Date
