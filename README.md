@@ -169,4 +169,55 @@ HAVING SUM(Quantity)=1
 
 The images above shows how results of the data queried into the SQL Server database.
 
+#### Insights and Recommendations 
+___
+Insights:
+1. Product Performance
+    - Best performing Sub_category: [Binders, Machine and Phone]
+    - Least performing Sub_category: [Fastners, Supplies, Labels]
+Analysis: Top 5 sub_categories contributed greatly to the total sale.
+   
+2. Regional Sales Trends
+    - Regions with highest sales revenue : West(725,468) and East (678,781)
+    - Regions with lowest sales revenue: Central(501,240) and South (391,722)
+Analysis: Sales in the West and East region grew year-over-year, while the central and south Region had no significant increase.
+
+Recommendations: 
+
+
+1. Product Optimization
+    - To clear out slow moving products, I recommended using discounts or creating a bundle of the products
+    - Do not restock slow moving products.
+    - Increase inventory of top-selling products
+    
+2. Regional Sales Strategies
+    - Expand operations to regions with high growth potentials
+    - Adjust pricing strategies for regions with low sales revenue
+  
+ 
+3. Customer Rentation
+    - Implement loyalty program to increase the purchase frequency of high value customers
+    - Create special offers for customers who has'nt purchased in a long time to increase frequency
+    
+2. Data-Driven Decision-Making
+    - Establish regular sales data analysis and review processes
+    - Develop predictive analytics capabilities
+    - Integrate sales data with other business functions (e.g., marketing, supply chain)
+
+* Long-Term (18+ months):
+1. Strategic Partnerships
+    - Explore partnerships with complementary businesses
+    - Develop strategic relationships with key suppliers
+    - Investigate opportunities for expansion into new markets
+      
+2. Innovative Sales Strategies
+    - Explore emerging sales channels (e.g., AR/VR, social commerce)
+    - Develop innovative sales formats (e.g., subscription services)
+    - Invest in sales technology (e.g., AI-powered chatbots)
+
+* Action Plan
+1. Assign responsibilities to team members for implementation
+2. Establish timelines and milestones for recommendations
+3. Monitor progress and adjust strategies as needed
+
 
