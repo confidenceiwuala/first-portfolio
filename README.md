@@ -87,8 +87,7 @@ ___
  - Total profit by sub-category.
 
    
-![profit by sub-category](https://github.com/user-attachments/assets/269e4994-499e-4644-8cd4-aadce3749530)
-![total profit by sub-category graph](https://github.com/user-attachments/assets/d76b83e1-6b4a-4831-8754-b4584868dac0)
+![profit by sub-category](https://github.com/user-attachments/assets/269e4994-499e-4644-8cd4-aadce3749530) ![total profit by sub-category graph](https://github.com/user-attachments/assets/d76b83e1-6b4a-4831-8754-b4584868dac0)
 
 
 This image shows the result of total profit by sub-category.
@@ -101,23 +100,65 @@ This image shows the result of total profit by sub-category.
 
 This image shows the result of total sales by region.
 
-   - Total sales by month.
+   - Total sales and profit by year.
      
-![total sales by month](https://github.com/user-attachments/assets/af519aa0-5927-434f-969f-ce152e13d39b) ![total sales by month graph](https://github.com/user-attachments/assets/c2562c4d-a611-4c38-ae86-3a2fea46252b)
+![Annual sales and Profit](https://github.com/user-attachments/assets/fd645fc8-8122-47a2-bbe0-13b13825cc2f) ![Annual Sales and Profit Graph](https://github.com/user-attachments/assets/0fa1a4bb-23ec-49b3-ba79-8b0028d30c75)
 
-This image shows the result of total sales by month.
+This image shows the Annual Sales and Profit
 
-- Calculated metrics:
-- 
-    - Average sales per product.
+#### SQL Queries
+---
 
-![average sales per product](https://github.com/user-attachments/assets/b61e6edf-ac3c-45a8-8cf4-943efaca3253) ![average sales per product graph](https://github.com/user-attachments/assets/71298127-dc24-4eb9-b40f-bc6402322f83)
+ Query 1: Customer Purchase Frequencey
+```
+SELECT 
+    customer_id, customer_name,
+    COUNT(order_id) AS purchase_frequency,
+    CASE 
+        WHEN COUNT(order_id) >= 20 THEN 'High Frequency'
+        WHEN COUNT(order_id) BETWEEN 10 AND 19 THEN 'Medium Frequency'
+        ELSE 'Low Frequency'
+    END AS frequency_segment
+FROM 
+    [Sample - Superstore 1]
+GROUP BY 
+    customer_id, Customer_Name
+	order by 3 desc
+```
 
-This image shows the result of the average sales per product.
 
-  - Total revenue by region.
+ Query 2: Total revenue generated per customer by sales amount.
+ ```
+select customer_name, sum(Sales*Quantity) as total_revenue_customer
+from [Sample - Superstore 1]
+group by Customer_Name
+order by 2 desc
+```
 
- ![total revenue by region](https://github.com/user-attachments/assets/53540ea9-6edc-4707-91d9-28d771175f48) ![total revenue by region graph](https://github.com/user-attachments/assets/624e2c23-c360-4f7f-b42f-87e88f51bb82)
 
-This image shows the result of total revenue by region.
+ Query 3: Total Sales over time.
+```
+SELECT Order_Date, SUM(sales) AS revenue
+FROM [Sample - Superstore 1]
+GROUP BY Order_Date
+ORDER BY Order_Date
+```
+
+ Query 4: Percentage of Total Sales by Region.
+```
+SELECT Region, SUM(sales*Quantity)/SUM(Quantity)*0.1 AS Percentage_of_Total_Sales
+FROM [dbo]. [Sample - Superstore 1]
+GROUP BY Region
+ORDER BY Percentage_of_Total_Sales
+```
+
+ Query 5: Least selling Product in 20217
+```
+	SELECT Product_Name,SUM(Quantity) AS Sales
+FROM [Sample - Superstore 1]
+WHERE year(Order_Date)='2017'
+GROUP BY Product_Name
+HAVING SUM(Quantity)=1
+```
+
 
